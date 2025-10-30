@@ -9,7 +9,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="">
-              <img src="/imagens/logo-horizontal-preta.png" alt="Logo Prefeitura do Aracati" className="w-30 h-14" />
+              <img src="/imagens/logo-horizontal-preta.png" alt="Logo Prefeitura do Aracati" className="w-60 h-12 md:h-20 md:w-26" />
             </div>
             <div>
               <h2 className="font-bold text-lg text-foreground">Pontos de Coleta Voluntária Aracati</h2>
