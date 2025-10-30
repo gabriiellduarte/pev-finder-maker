@@ -36,9 +36,7 @@ const initialPEVs: PEV[] = [
   { id: 22, local: "EEF Antonieta Cals", endereco: "Praia de Majorlândia", coordenadas: '4°33\'13.99"S, 37°40\'24.02"O' },
   { id: 23, local: "EEF Heriberto Porto", endereco: "Praia de Quixaba", coordenadas: '4°34\'10.92"S, 37°39\'24.16"O' },
   { id: 24, local: "PEV Comunitário (Em construção)", endereco: "Aracati", coordenadas: '4°34\'6.32"S, 37°46\'33.31"O' },
-  { id: 25, local: "Supermercado Mini Box", endereco: "Rua Adolfo Caminha, 265 – Centro", coordenadas: '4°34\'0.75"S 37°46\'12.81"O' },
-  { id: 26, local: "Supermercado Mini Box", endereco: "Rua Dois de Novembro, 1742 - Centro", coordenadas: '4°33\'24.64"S 37°46\'3.80"O' },
-  { id: 27, local: "PEV Comunitário (Em construção)", endereco: "", coordenadas: "" },
+  { id: 25, local: "PEV Comunitário (Em construção)", endereco: "Canoa Quebrada", coordenadas: "" },
 ];
 
 export function PEVTable() {
@@ -142,7 +140,7 @@ export function PEVTable() {
                     )}
                   </td>
                   <td className="px-4 py-4">
-                    <div className="flex items-center justify-center gap-2">
+                    <div className="flex items-center justify-center gap-2 hidden">
                       {editingId === pev.id ? (
                         <>
                           <Button

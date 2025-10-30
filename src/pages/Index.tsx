@@ -8,17 +8,17 @@ const Index = () => {
       <header className="border-b-2 border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50 shadow-soft">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="p-2 bg-primary/10 rounded-lg">
-              <Recycle className="h-6 w-6 text-primary" />
+            <div className="">
+              <img src="/imagens/logo-horizontal-preta.png" alt="Logo Prefeitura do Aracati" className="w-30 h-14" />
             </div>
             <div>
-              <h2 className="font-bold text-lg text-foreground">PEV</h2>
-              <p className="text-xs text-muted-foreground">Coleta Voluntária</p>
+              <h2 className="font-bold text-lg text-foreground">Pontos de Coleta Voluntária Aracati</h2>
+              <p className="text-xs text-muted-foreground">PEV</p>
             </div>
           </div>
-          <div className="text-right">
-            <p className="text-sm font-medium text-foreground">Meio Ambiente</p>
-            <p className="text-xs text-muted-foreground">Sustentabilidade</p>
+          <div className="text-right hidden md:block">
+            <p className="text-sm font-medium text-foreground">Secretaria de Meio Ambiente</p>
+            <p className="text-xs text-muted-foreground"></p>
           </div>
         </div>
       </header>
@@ -41,8 +41,8 @@ const Index = () => {
       <footer className="bg-secondary/30 border-t-2 border-border mt-20">
         <div className="max-w-7xl mx-auto px-4 py-8">
           <div className="text-center text-muted-foreground">
-            <p className="mb-2">© 2025 Pontos de Entrega Voluntária - Todos os direitos reservados</p>
-            <p className="text-sm">Juntos por um planeta mais sustentável</p>
+            <p className="mb-2">© 2025 Prefeitura Municipal do Aracati</p>
+            <p className="text-sm">Caminhando com o povo</p>
           </div>
         </div>
       </footer>
