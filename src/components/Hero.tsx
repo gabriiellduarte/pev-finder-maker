@@ -35,7 +35,7 @@ export function Hero() {
             <div className="inline-flex items-center justify-center p-3 bg-accent/10 rounded-lg mb-4">
               <MapPin className="h-6 w-6 text-accent" />
             </div>
-            <h3 className="text-lg font-semibold text-foreground mb-2">27 Pontos</h3>
+            <h3 className="text-lg font-semibold text-foreground mb-2">25 Pontos</h3>
             <p className="text-muted-foreground">
               Locais estrategicamente distribuídos para facilitar seu acesso à coleta seletiva
             </p>
